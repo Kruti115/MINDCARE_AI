@@ -1,0 +1,14 @@
+# requirements.txt - Updated with OpenCV
+fastapi
+uvicorn[standard]
+transformers
+torch
+tensorflow
+librosa
+soundfile
+pydantic
+python-multipart
+huggingface-hub
+numpy
+pydub
+opencv-python-headless
