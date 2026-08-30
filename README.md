@@ -4,7 +4,6 @@
 MindCare AI is a multimodal mental health companion that analyzes a user’s emotional state using text, speech, and facial expressions.  
 The system combines multiple AI models to generate a unified wellness score (0–10) and provides early emotional insights and crisis support.
 
----
 
 ## 🚀 Features
 - Text Emotion Analysis (RoBERTa – 28 emotions)  
@@ -17,7 +16,6 @@ The system combines multiple AI models to generate a unified wellness score (0�
 - Offline Data Handling  
 - Privacy-first (Local Storage)  
 
----
 
 ## 🧠 How It Works
 1. User provides input (text / audio / image / multimodal)  
@@ -27,28 +25,21 @@ The system combines multiple AI models to generate a unified wellness score (0�
 5. Final wellness score is generated  
 6. Crisis detection triggers alerts if needed  
 
----
 
 ## 🏗️ System Architecture
-
 ### Frontend
 - React Native (Expo)
-
 ### Backend
 - FastAPI (Python)
-
 ### Models
 - NLP: RoBERTa (GoEmotions)
 - Audio: CNN + MFCC (RAVDESS)
 - Facial: CNN (FER-2013)
-
 ### Storage
 - AsyncStorage (Local)
-
 ### Deployment
 - Hugging Face Spaces
 
----
 
 ## ⚙️ Tech Stack
 - Languages: Python, JavaScript  
@@ -56,10 +47,8 @@ The system combines multiple AI models to generate a unified wellness score (0�
 - Libraries: Transformers, OpenCV, NumPy, Pandas, Scikit-learn  
 - Tools: Expo, Git  
 
----
 
 ## 📊 Scoring System
-
 W_final = 0.40 × W_text + 0.30 × W_audio + 0.30 × W_video
 
 Range:
@@ -68,21 +57,18 @@ Range:
 - 3.5–4.9 → Low  
 - ≤ 3 → Crisis  
 
----
 
 ## 🚨 Crisis Detection
 If score ≤ 3, system triggers:
 - Alert message  
 - Verified Indian mental health helplines  
 
----
 
 ## 📈 Performance
 - Speech Model Accuracy: ~72%  
 - Facial Model Accuracy: ~65%  
 - System Usability Score (SUS): 88.88 (Excellent)  
 
----
 
 ## 📂 Project Structure
 mindcare-ai/
@@ -93,14 +79,12 @@ mindcare-ai/
 ├── utils/           
 └── README.md        
 
----
 
 ## ⚠️ Limitations
 - Not clinically validated  
 - Performance affected by noise (audio)  
 - Deployment latency (free hosting)  
 
----
 
 ## 🔮 Future Improvements
 - Clinical validation (PHQ-9 integration)  
@@ -108,13 +92,11 @@ mindcare-ai/
 - Cloud-based data sync  
 - Real-time emotion tracking  
 
----
 
 ## 📌 Disclaimer
 This application is not a substitute for professional medical advice.  
 It is intended for emotional awareness and support only.
 
----
 
 ## 👩‍💻 Author
 Kruti Gupta  
